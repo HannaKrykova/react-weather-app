@@ -1,0 +1,8 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(248, 219, 219) 0%,
+    rgb(229, 248, 250) 90%
+  );
+  font-family: "Karla", sans-serif;
+}
