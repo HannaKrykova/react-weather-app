@@ -1,0 +1,7 @@
+.unit a {
+  color: #964d7d;
+  text-decoration: none;
+}
+.unit a:hover {
+  text-decoration: underline;
+}
