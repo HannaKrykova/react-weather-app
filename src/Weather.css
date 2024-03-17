@@ -45,7 +45,7 @@
   list-style: none;
 }
 
-.Weather img {
+.Weather canvas {
   width: 64px;
   height: 64px;
 }
