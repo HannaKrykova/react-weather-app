@@ -25,6 +25,15 @@ export default function App() {
             >
               open-sourced on GitHub
             </a>
+            <br />
+            and{" "}
+            <a
+              href="https://wonderful-dodol-482563.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              hosted on Netlify
+            </a>
           </p>
         </footer>
       </div>
