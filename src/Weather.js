@@ -46,6 +46,8 @@ export default function Weather(props) {
           <div className="row">
             <div className="col-9">
               <input
+                id="cityInput"
+                name="city"
                 className="form-control mr-sm-2 search-input"
                 type="search"
                 placeholder="Enter a city.."

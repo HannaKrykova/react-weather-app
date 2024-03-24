@@ -4,13 +4,12 @@
   padding: 20px 40px;
   border-radius: 8px;
   max-width: 780px;
-  margin: 40px auto;
+  margin: 20px auto;
   box-shadow: 0 30px 50px #41326414;
 }
 
 .App footer {
   border-top: 1px solid #eed3e4;
-  padding-top: 32px;
   text-align: center;
   font-size: 14px;
   color: #3a3b3c;
