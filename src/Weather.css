@@ -36,11 +36,10 @@
   font-weight: 700;
   margin: 0;
   line-height: 48px;
-  padding-left: 20px;
 }
 
 .Weather ul {
-  padding: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 2px;
   margin: 0px;
 }
 
@@ -49,14 +48,11 @@
   font-weight: 500;
   line-height: 24px;
   padding: 0px;
-  color: #27214266;
+  color: #272142;
+  opacity: 60%;
   list-style: none;
 }
 
-.Weather canvas {
-  width: 64px;
-  height: 64px;
-}
 .Weather .temperature {
   color: #272142;
   font-size: 88px;

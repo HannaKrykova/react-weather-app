@@ -24,8 +24,7 @@ export default function App() {
               rel="noreferrer"
             >
               open-sourced on GitHub
-            </a>
-            <br />
+            </a>{" "}
             and{" "}
             <a
               href="https://wonderful-dodol-482563.netlify.app/"

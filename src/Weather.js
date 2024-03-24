@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { TailSpin } from "react-loader-spinner";
+
 import "./Weather.css";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -10,7 +12,6 @@ export default function Weather(props) {
 
   function handleResponse(response) {
     console.log(response.data);
-    console.log(response.data.icon);
     setWeatherData({
       ready: true,
       temperature: response.data.temperature.current,
@@ -20,6 +21,7 @@ export default function Weather(props) {
       icon: response.data.condition.icon,
       city: response.data.city,
       date: new Date(response.data.time * 1000),
+      coordinates: response.data.coordinates,
     });
   }
 
@@ -64,6 +66,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
